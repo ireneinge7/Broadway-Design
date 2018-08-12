@@ -1,0 +1,123 @@
+Last login: Sun Aug 12 22:03:07 on ttys001
+dyn-118-138-109-63:~ inge$ cd desktop
+dyn-118-138-109-63:desktop inge$ mkdir Broadway Design
+dyn-118-138-109-63:desktop inge$ cd dekstop/Broadway Design
+-bash: cd: dekstop/Broadway: No such file or directory
+dyn-118-138-109-63:desktop inge$ touch Broadway Design/index.html
+dyn-118-138-109-63:desktop inge$ ls
+-IRENE.CHRISTINA.27503054.docx
+2017-C2000-BInfoTech-BIS.pdf
+Applications
+Broadway
+CV IRENE INGE CHRISTINA.pdf
+Design
+FIT 3152 DATA ANALYTICS (ASS2 REPORT).docx
+FIT 3158 BUSINESS DECISION MODELLING
+FIT1013 IT BUSINESS
+IRENE.CHRISTINA.27503054.R
+IRENE.CHRISTINA.27503054.docx
+IRENE.CHRISTINA.27503054.pdf
+Irene Inge Christina (Resume) copy.doc
+Irene Inge Christina (Resume).doc
+Irene Inge Christina (Resume1).doc
+Irene Inge Christina -Resume.doc
+Irene Inge Christina-Resume .doc
+Irene Inge Christina-Resume .pdf
+RESUME
+SEMESTER 1 (2nd Year)
+STUDYLIVE PROJECT
+The Professional Development Program_Learning Schedule (EIGHTFOLD).pdf
+architecting-real-time-enterprise copy 2.pdf
+architecting-real-time-enterprise copy.pdf
+b2001-bachelor-of-commerce-2017-finance (1).docx
+excursion
+q3.png
+~$ IRENE INGE CHRISTINA .docx
+~$ PORJECT WEEK 8.docx
+~$001-bachelor-of-commerce-2017-accounting-and-finance.docx
+~$001-bachelor-of-commerce-2017-accounting.docx
+~$001-bachelor-of-commerce-2017-finance (1).docx
+~$EANARY SYDNEY.docx
+~$EK 5 IT PORJECT.docx
+~$EK 7 QUIZ IT PROJECT.docx
+~$MO IT PORJECT RUNNING CASE 6 (3).docx
+~$NAL KOM ASSIGNMENT.docx
+~$SUME FOR CASHIER.docx
+~$SUME IRENE INGE CHRISTINA.docx
+~$SUME NEW BARISTA1.docx
+~$SUME PART TIME .docx
+~$SUME WORK IRENE INGE CHRISTINA.docx
+~$VA WEEK 11 quiz.docx
+~$ver Letter Apply Job.docx
+dyn-118-138-109-63:desktop inge$ ls desktop/Broadway Design
+ls: desktop/Broadway: No such file or directory
+Design:
+index.html
+dyn-118-138-109-63:desktop inge$ mkdir desktop/Broadway Design/Resources
+mkdir: desktop: No such file or directory
+dyn-118-138-109-63:desktop inge$ mkdir desktop/Broadway Design/resources
+mkdir: desktop: No such file or directory
+mkdir: Design/resources: File exists
+dyn-118-138-109-63:desktop inge$ mkdir Broadway Design/resources
+mkdir: Broadway: File exists
+mkdir: Design/resources: File exists
+dyn-118-138-109-63:desktop inge$ mkdir resources
+dyn-118-138-109-63:desktop inge$ touch resources/style.css
+dyn-118-138-109-63:desktop inge$ mkdir Design/images
+dyn-118-138-109-63:desktop inge$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+dyn-118-138-109-63:desktop inge$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+dyn-118-138-109-63:desktop inge$ git remote add origin https://github.com/ireneinge7/Broadway-Design.git
+fatal: Not a git repository (or any of the parent directories): .git
+dyn-118-138-109-63:desktop inge$ git init
+Initialized empty Git repository in /Users/inge/Desktop/.git/
+dyn-118-138-109-63:desktop inge$ git init
+Reinitialized existing Git repository in /Users/inge/Desktop/.git/
+dyn-118-138-109-63:desktop inge$ cd Design
+dyn-118-138-109-63:Design inge$ git init
+Initialized empty Git repository in /Users/inge/Desktop/Design/.git/
+dyn-118-138-109-63:Design inge$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	execute.svg
+	identify.svg
+	index.html
+	resources/
+	the-flatiron-building.png
+	understand.svg
+
+nothing added to commit but untracked files present (use "git add" to track)
+dyn-118-138-109-63:Design inge$ git add .
+dyn-118-138-109-63:Design inge$ git commit -m "First commit"
+[master (root-commit) b450dff] First commit
+ 7 files changed, 44 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 execute.svg
+ create mode 100644 identify.svg
+ create mode 100644 index.html
+ create mode 100644 resources/style.css
+ create mode 100644 the-flatiron-building.png
+ create mode 100644 understand.svg
+dyn-118-138-109-63:Design inge$ git status
+On branch master
+nothing to commit, working tree clean
+dyn-118-138-109-63:Design inge$ git remote add origin https://github.com/ireneinge7/Broadway-Design.git
+dyn-118-138-109-63:Design inge$ git push -u origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 699.20 KiB | 22.55 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/ireneinge7/Broadway-Design.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+dyn-118-138-109-63:Design inge$ git push origin master
+Everything up-to-date
+dyn-118-138-109-63:Design inge$ 
