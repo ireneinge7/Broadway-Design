@@ -1,11 +1,11 @@
 html{
   font-family: "Helvetica";
   background-color: white;
+  text-align: center;
 }
 
 #header{
   background-image: url("../the-flatiron-building.png");
-  text-align: center;
 }
 
 h1{
@@ -17,10 +17,6 @@ h1{
 .btn-nav{
   font-size: 18px;
   color: white;
-}
-
-#main{
-  text-align: center;
 }
 
 h2{
@@ -42,19 +38,13 @@ h3.spt{
   font-size: 23px;
   font-weight: bold;
   color: white;
-  text-align: center;
 }
 
 .hero{
-  text-align: center;
+  color: white;
   font-size: 23px;
   font-weight: bold;
   background-image: url("../the-flatiron-building.png");
-}
-
-#end{
-  text-align: center;
-
 }
 
 #footer{
